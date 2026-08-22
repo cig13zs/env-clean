@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Env-clean \u2014 Deduplicate, normalize casing, and gener",
-  "version": "1.0.0",
-  "description": "Deduplicate, normalize casing, and generate clean .env.example templates offline.",
+  "name": ".env example cleaner",
+  "version": "1.1.0",
+  "description": "Normalize environment-variable names, remove duplicates, and replace values with safe example placeholders.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,6 +11,6 @@
   "permissions": [],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Env-clean"
+    "default_title": ".env example cleaner"
   }
 }
